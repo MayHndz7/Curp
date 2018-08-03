@@ -1,0 +1,55 @@
+<?xmlversion="1.0"encoding="utf-8"?>
+<AbsoluteLayoutxmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fondo">
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="314dp"
+android:layout_x="0dp"
+android:layout_y="1dp"
+android:orientation="vertical">
+<TextView
+    android:id="@+id/textViewSex"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Sexo"
+    android:textSize="25dp"/>
+<Spinner
+    android:id="@+id/spinnerSex"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:entries="@array/Sex"
+    android:prompt="@string/Prompt"/>
+<TextView
+    android:id="@+id/textViewFecha"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Fecha"
+    android:textSize="25dp"/>
+<DatePicker
+    android:id="@+id/datePickerFecha"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1.91"/>
+<TextView
+    android:id="@+id/textViewEstado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Estado"
+    android:textSize="25dp"/>
+<Spinner
+    android:id="@+id/spinnerEstado"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+    android:prompt="@string/Prompt"/>
+</LinearLayout>
+<Button
+android:id="@+id/buttonConsultar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="212dp"
+android:layout_y="339dp"
+android:text="@string/P3ButtonConsultar"/>
+    </AbsoluteLayout>

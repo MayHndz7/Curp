@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AP1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Nueva Consulta</string>
+    <string name="Intro">AP1 es una aplicación que realiza el calculo de la    C.U.R.P.</string>
+    <string name="Nombre">Escribe tu primer nombre: </string>
+    <string name="ApellidoPaterno">Escribe tu apellido paterno: </string>
+    <string name="ApellidoMaterno">Escribe tu apellido materno: </string>
+    <string name="P2ButtonNext">Siguente</string>
+    <string name="P3ButtonConsultar">Consultar</string>
+    <string name="Sexo">Sexo: </string>
+    <string name="Estado">Estado: </string>
+    <string name="Fecha">Fecha de nacimiento: </string>
+    <string-array name="Sex">
+        <item >Hombre</item>
+        <item >Mujer</item>
+    </string-array>
+    <string name="Prompt">Elige una opción....</string>
+    <string name="hintNombre">Primer nombre...</string>
+    <string name="hintPaterno">Apellido paterno...</string>
+    <string name="hintMAterno">Apellido materno...</string>
+</resources>
